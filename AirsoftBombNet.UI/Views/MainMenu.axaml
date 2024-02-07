@@ -1,0 +1,43 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:components="clr-namespace:AirsoftBombNet.UI.Components"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="AirsoftBombNet.UI.Views.MainMenu">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="2*" />
+			<RowDefinition Height="2*" />
+			<RowDefinition Height="2*" />
+			<RowDefinition  />
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition />
+			<ColumnDefinition />
+			<ColumnDefinition />
+		</Grid.ColumnDefinitions>
+
+		<components:MenuItem Text="Warmup" Source="/Assets/MenuIcons/warmup.png" Fill="LightGreen" />
+		<components:MenuItem Grid.Column="1" Text="Domination" Source="/Assets/MenuIcons/flag.png" Fill="LightYellow"/>
+		<components:MenuItem Grid.Column="2" Text="Search &amp; Destroy" Source="/Assets/MenuIcons/searchdestroy.png" Fill="LightCyan"/>
+		<components:MenuItem Grid.Row="1" Text="Sabotage" Source="/Assets/MenuIcons/sabotage.png" Fill="LightGray"/>
+
+		<!--settings area-->
+		<Grid Grid.ColumnSpan="3" Grid.Row="3">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+			</Grid.ColumnDefinitions>
+			<components:MenuItem Grid.Column="3" Text="Settings" Source="/Assets/MenuIcons/icon_settings.png" Fill="LightBlue" />
+			<components:MenuItem Grid.Column="4" Text="ShutDown" Source="/Assets/MenuIcons/icon_shutdown.png" Fill="Red" />
+
+		</Grid>
+
+
+
+	</Grid>
+</UserControl>

@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirsoftBombNet.UI", "AirsoftBombNet.UI\AirsoftBombNet.UI.csproj", "{27E75498-1507-4907-99F0-9E1A1BAE0B21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirsoftBombNet.UI.Desktop", "AirsoftBombNet.UI.Desktop\AirsoftBombNet.UI.Desktop.csproj", "{0C765E44-9A36-410E-AED7-0D69DE609DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirsoftBombNet.Core", "AirsoftBombNet.Core\AirsoftBombNet.Core.csproj", "{2BF8D3F2-1C0E-4311-AF05-2A7C710B5F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirsoftBombNet.Logic", "AirsoftBombNet.Logic\AirsoftBombNet.Logic.csproj", "{D5410ED3-88B9-420C-9189-8E34C2545C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirsoftBombNet.SerialComm", "AirsoftBombNet.SerialComm\AirsoftBombNet.SerialComm.csproj", "{25933C31-731B-48BA-AE53-B6A2AAB9C4B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Presentation", "01.Presentation", "{AE23A5A8-CF52-4DEE-8142-778E016C4BB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Infrastructure", "02.Infrastructure", "{C1078892-C676-4607-94AF-93DFACC9C604}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Core", "03.Core", "{0BA43F7C-B545-4F4F-AE97-51CADD8B7FF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirsoftBombNet.Data", "AirsoftBombNet.Data\AirsoftBombNet.Data.csproj", "{FA208833-0A29-45D6-B096-28C8DF5349EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E75498-1507-4907-99F0-9E1A1BAE0B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E75498-1507-4907-99F0-9E1A1BAE0B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E75498-1507-4907-99F0-9E1A1BAE0B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E75498-1507-4907-99F0-9E1A1BAE0B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C765E44-9A36-410E-AED7-0D69DE609DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C765E44-9A36-410E-AED7-0D69DE609DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C765E44-9A36-410E-AED7-0D69DE609DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C765E44-9A36-410E-AED7-0D69DE609DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF8D3F2-1C0E-4311-AF05-2A7C710B5F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF8D3F2-1C0E-4311-AF05-2A7C710B5F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF8D3F2-1C0E-4311-AF05-2A7C710B5F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF8D3F2-1C0E-4311-AF05-2A7C710B5F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5410ED3-88B9-420C-9189-8E34C2545C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5410ED3-88B9-420C-9189-8E34C2545C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5410ED3-88B9-420C-9189-8E34C2545C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5410ED3-88B9-420C-9189-8E34C2545C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25933C31-731B-48BA-AE53-B6A2AAB9C4B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25933C31-731B-48BA-AE53-B6A2AAB9C4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25933C31-731B-48BA-AE53-B6A2AAB9C4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25933C31-731B-48BA-AE53-B6A2AAB9C4B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA208833-0A29-45D6-B096-28C8DF5349EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA208833-0A29-45D6-B096-28C8DF5349EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA208833-0A29-45D6-B096-28C8DF5349EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA208833-0A29-45D6-B096-28C8DF5349EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27E75498-1507-4907-99F0-9E1A1BAE0B21} = {AE23A5A8-CF52-4DEE-8142-778E016C4BB6}
+		{0C765E44-9A36-410E-AED7-0D69DE609DAF} = {AE23A5A8-CF52-4DEE-8142-778E016C4BB6}
+		{2BF8D3F2-1C0E-4311-AF05-2A7C710B5F28} = {0BA43F7C-B545-4F4F-AE97-51CADD8B7FF5}
+		{D5410ED3-88B9-420C-9189-8E34C2545C03} = {C1078892-C676-4607-94AF-93DFACC9C604}
+		{25933C31-731B-48BA-AE53-B6A2AAB9C4B9} = {C1078892-C676-4607-94AF-93DFACC9C604}
+		{FA208833-0A29-45D6-B096-28C8DF5349EE} = {C1078892-C676-4607-94AF-93DFACC9C604}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E0DE376-0F7B-47D3-9A78-F2745520BEDC}
+	EndGlobalSection
+EndGlobal
