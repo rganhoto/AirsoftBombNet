@@ -24,12 +24,10 @@ namespace AirsoftBombNet.UI.Components
         }
 
         //event
-        public event EventHandler<RoutedEventArgs> Click;
+        public event EventHandler<RoutedEventArgs>? Click;
 
 
         //property declarations
-
-
         public static readonly StyledProperty<IBrush?> FillProperty =
             Rectangle.FillProperty.AddOwner<MenuItem>();
 

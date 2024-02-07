@@ -32,7 +32,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\GameStates\" />
     <Folder Include="Views\ConfigurationStates\" />
   </ItemGroup>
 

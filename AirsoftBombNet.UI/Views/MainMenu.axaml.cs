@@ -17,22 +17,18 @@ namespace AirsoftBombNet.UI.Views
 
         private void BtnSearchDestroy_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
-            throw new System.NotImplementedException();
         }
 
         private void BtnDomination_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
-            throw new System.NotImplementedException();
         }
 
         private void BtnSabotage_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
-            throw new System.NotImplementedException();
         }
 
         private void BtnWarmup_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
-            throw new System.NotImplementedException();
         }
 
         private void BtnShutDown_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
