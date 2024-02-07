@@ -6,7 +6,7 @@
         xmlns:views="clr-namespace:AirsoftBombNet.UI.Views"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AirsoftBombNet.UI.Views.MainWindow"
-        Icon="/Assets/avalonia-logo.ico"
+        Icon="/Assets/app.ico"
         Title="AirsoftBombNet.UI">
         <views:MainMenu />
 </Window>

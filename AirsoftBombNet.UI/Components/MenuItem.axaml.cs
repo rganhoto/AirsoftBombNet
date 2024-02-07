@@ -1,7 +1,9 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.Shapes;
+using Avalonia.Interactivity;
 using Avalonia.Media;
+using System;
 
 namespace AirsoftBombNet.UI.Components
 {
@@ -11,7 +13,18 @@ namespace AirsoftBombNet.UI.Components
         {
             InitializeComponent();
             this.DataContext = this;
+            this.btnMenu.Click += BtnMenu_Click;
         }
+
+        private void BtnMenu_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+        {
+            //menu item was pressed.
+            if (this.Click != null)
+                this.Click(this, e);
+        }
+
+        //event
+        public event EventHandler<RoutedEventArgs> Click;
 
 
         //property declarations

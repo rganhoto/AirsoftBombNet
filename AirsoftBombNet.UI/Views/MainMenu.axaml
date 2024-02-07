@@ -18,10 +18,10 @@
 			<ColumnDefinition />
 		</Grid.ColumnDefinitions>
 
-		<components:MenuItem Text="Warmup" Source="/Assets/MenuIcons/warmup.png" Fill="LightGreen" />
-		<components:MenuItem Grid.Column="1" Text="Domination" Source="/Assets/MenuIcons/flag.png" Fill="LightYellow"/>
-		<components:MenuItem Grid.Column="2" Text="Search &amp; Destroy" Source="/Assets/MenuIcons/searchdestroy.png" Fill="LightCyan"/>
-		<components:MenuItem Grid.Row="1" Text="Sabotage" Source="/Assets/MenuIcons/sabotage.png" Fill="LightGray"/>
+		<components:MenuItem Name="btnWarmup" Text="Warmup" Source="/Assets/MenuIcons/warmup.png" Fill="LightGreen" />
+		<components:MenuItem Name="btnDomination" Grid.Column="1" Text="Domination" Source="/Assets/MenuIcons/flag.png" Fill="LightYellow"/>
+		<components:MenuItem Name="btnSearchDestroy" Grid.Column="2" Text="Search &amp; Destroy" Source="/Assets/MenuIcons/searchdestroy.png" Fill="LightCyan"/>
+		<components:MenuItem Name="btnSabotage" Grid.Row="1" Text="Sabotage" Source="/Assets/MenuIcons/sabotage.png" Fill="LightGray"/>
 
 		<!--settings area-->
 		<Grid Grid.ColumnSpan="3" Grid.Row="3">
@@ -32,9 +32,9 @@
 				<ColumnDefinition />
 				<ColumnDefinition />
 			</Grid.ColumnDefinitions>
-			<components:MenuItem Grid.Column="3" Text="Settings" Source="/Assets/MenuIcons/icon_settings.png" Fill="LightBlue" />
-			<components:MenuItem Grid.Column="4" Text="ShutDown" Source="/Assets/MenuIcons/icon_shutdown.png" Fill="Red" />
-
+			<components:MenuItem Name="btnSettings" Grid.Column="3" Text="Settings" Source="/Assets/MenuIcons/icon_settings.png" Fill="LightBlue" />
+			<components:MenuItem Name="btnShutDown" Grid.Column="4" Text="ShutDown" Source="/Assets/MenuIcons/icon_shutdown.png" Fill="Red" />
+			<TextBox Name="txtDiagnostic" Grid.ColumnSpan="3" />
 		</Grid>
 
 

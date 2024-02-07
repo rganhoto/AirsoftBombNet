@@ -19,5 +19,6 @@
 			<Image Source="{Binding #menuItem.Source}" />
 			<TextBlock Text="{Binding #menuItem.Text}" FontWeight="Bold" Grid.Row="2" HorizontalAlignment="Center" />
 		</Grid>
+		<Button Name="btnMenu" Opacity="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
 	</Grid>
 </UserControl>
