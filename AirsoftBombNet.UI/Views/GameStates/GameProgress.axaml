@@ -1,0 +1,39 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:components="clr-namespace:AirsoftBombNet.UI.Components"
+             x:Class="AirsoftBombNet.UI.Views.GameStates.GameProgress">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="3*"/>
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<StackPanel Margin="12">
+			<TextBlock Text="GameMode" HorizontalAlignment="Center" FontSize="24" FontWeight="Bold" />
+			<!--todo Setttings resume-->
+		</StackPanel>
+
+		<Grid Name="SingleTimerGrid" Grid.Row="1">
+			<components:TimerControl />
+		</Grid>
+		<Grid Name="TwoTimerGrid" IsVisible="false" Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition />
+			</Grid.ColumnDefinitions>
+			<components:TimerControl />
+			<components:TimerControl Grid.Column="1" />
+		</Grid>
+		
+		<Grid Grid.Row="2">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition Width="5*" />
+			</Grid.ColumnDefinitions>
+			<components:MenuItem Text="Back" Fill="LightCoral" Source="/Assets/MenuIcons/back.png" />
+		</Grid>
+	</Grid>
+</UserControl>

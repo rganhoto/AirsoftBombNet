@@ -2,11 +2,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:vm="clr-namespace:AirsoftBombNet.UI.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-			 xmlns:views="clr-namespace:AirsoftBombNet.UI.Views"
-             x:Class="AirsoftBombNet.UI.Views.MainView">
-	<Grid Name="navigationGrid">
-		<views:MainMenu Name="mainMenu"/>
+             x:Class="AirsoftBombNet.UI.Components.TimerControl">
+
+	<Grid Background="Yellow">
+		<StackPanel>
+			<TextBlock Text="20:10" FontSize="20" HorizontalAlignment="Center" Margin="12"/>
+			<ProgressBar Height="30" Margin="12,0"/>
+		</StackPanel>
 	</Grid>
 </UserControl>

@@ -38,4 +38,8 @@
   <ItemGroup>
     <UpToDateCheckInput Remove="Views\MainMenu.axaml" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AirsoftBombNet.Core\AirsoftBombNet.Core.csproj" />
+  </ItemGroup>
 </Project>

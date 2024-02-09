@@ -3,15 +3,34 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="AirsoftBombNet.UI.Views.GameStates.GameStart">
+			 xmlns:components="clr-namespace:AirsoftBombNet.UI.Components"
+			 xmlns:vm="clr-namespace:AirsoftBombNet.UI.ViewModels"
+             x:Class="AirsoftBombNet.UI.Views.GameStates.GameStart"
+			 x:DataType="vm:GameStartViewModel">
+	<Design.DataContext>
+		<vm:GameStartViewModel />
+	</Design.DataContext>
 	<Grid>
-		<StackPanel>
-			<TextBlock Text="GameMode" />
-			<TextBlock Text="Description"/>
-			<TextBlock Text="Start Button"/>
-			<TextBlock Text="Back Button" />
-			<TextBlock Text="Settings" />
-			<TextBlock Text="Settings Resume" />
+		<Grid.RowDefinitions>
+			<RowDefinition Height="3*"/>
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<StackPanel Margin="6">
+			<TextBlock Text="{Binding GameName}" HorizontalAlignment="Center" FontSize="24" FontWeight="Bold" Margin="6" />
+			<TextBlock Text="GameDescription" Margin="6"/>
+			<!--todo Setttings resume-->
 		</StackPanel>
+
+		<Grid Grid.Row="2">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition Width="3*" />
+				<ColumnDefinition />
+				<ColumnDefinition />
+			</Grid.ColumnDefinitions>
+			<components:MenuItem Name="btnBack" Text="Back" Fill="LightCoral" Source="/Assets/MenuIcons/back.png" />
+			<components:MenuItem Name="btnSettings" Grid.Column="2" Text="Settings" Fill="LightBlue" Source="/Assets/MenuIcons/icon_settings.png" />
+			<components:MenuItem Name="btnStart" Grid.Column="3" Text="Start" Fill="LightGreen" Source="/Assets/MenuIcons/start.png" />
+		</Grid>
 	</Grid>
 </UserControl>

@@ -20,7 +20,7 @@
 
 		<components:MenuItem Name="btnWarmup" Text="Warmup" Source="/Assets/MenuIcons/warmup.png" Fill="LightGreen" />
 		<components:MenuItem Name="btnDomination" Grid.Column="1" Text="Domination" Source="/Assets/MenuIcons/flag.png" Fill="LightYellow"/>
-		<components:MenuItem Name="btnSearchDestroy" Grid.Column="2" Text="Search &amp; Destroy" Source="/Assets/MenuIcons/searchdestroy.png" Fill="LightCyan"/>
+		<components:MenuItem Name="btnDefend" Grid.Column="2" Text="Defend" Source="/Assets/MenuIcons/searchdestroy.png" Fill="LightCyan"/>
 		<components:MenuItem Name="btnSabotage" Grid.Row="1" Text="Sabotage" Source="/Assets/MenuIcons/sabotage.png" Fill="LightGray"/>
 
 		<!--settings area-->

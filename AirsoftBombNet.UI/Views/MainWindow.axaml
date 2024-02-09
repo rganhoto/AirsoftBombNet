@@ -8,5 +8,5 @@
         x:Class="AirsoftBombNet.UI.Views.MainWindow"
         Icon="/Assets/app.ico"
         Title="AirsoftBombNet.UI">
-        <views:MainMenu />
+	<views:MainView/>
 </Window>
